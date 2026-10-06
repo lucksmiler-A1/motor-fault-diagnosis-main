@@ -1,0 +1,31 @@
+# --------- general --------- #
+albumentations	# image augmentations
+matplotlib
+numpy
+pandas
+python-dotenv   # loading env variables from .env file
+scikit-learn
+tabulate	    # tabulate array for table pretty print
+timm            # pretrained PyTorch image models
+
+# --------- data loading --------- #
+Pillow          # loading uint 16-bit thermal images
+
+# --------- pytorch --------- #
+torch==1.13.1
+torchvision==0.14.1
+pytorch-lightning==1.6.3
+torchmetrics==0.8.2
+
+# --------- hydra --------- #
+hydra-core==1.2.0
+hydra-colorlog==1.2.0
+hydra-optuna-sweeper==1.2.0
+
+# --------- loggers --------- #
+neptune-client==0.16.3
+
+# --------- export --------- #
+onnx
+onnx-simplifier
+onnxruntime
